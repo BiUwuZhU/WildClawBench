@@ -46,9 +46,9 @@ Most agent benchmarks test isolated capabilities — calling a function, parsing
 
 ## News
 
-- **2026-05 — WildClawBench v2.0:** We released a new version with **four agent harnesses** — OpenClaw, Claude Code, Codex CLI, and Hermes Agent — so the same 60-task suite can be evaluated under multiple scaffolds.
-- **2026-05 — Technical report:** We published a **[technical report PDF](WildClawBench_report.pdf)**.
-- **2026-05 — Hunyuan3 Preview:** Tencent’s **[Hunyuan3 Preview](https://hunyuan.tencent.com/research/hy3)** page reports WildClawBench evaluation scores.
+- **2026-05** We released a new version with **four agent harnesses** — OpenClaw, Claude Code, Codex CLI, and Hermes Agent — so the same 60-task suite can be evaluated under multiple scaffolds.
+- **2026-05** We published a **[technical report PDF](WildClawBench_report.pdf)**.
+- **2026-05** Tencent’s **[Hunyuan3 Preview](https://hunyuan.tencent.com/research/hy3)** page reports WildClawBench evaluation scores. Thanks for the recognition!
 
 ---
 
