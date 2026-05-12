@@ -12,6 +12,7 @@
 [![Models](https://img.shields.io/badge/Models-19-green)]()
 <br>
 [![Leaderboard](https://img.shields.io/badge/🏆_Leaderboard-WildClawBench-8c2416)](https://internlm.github.io/WildClawBench/)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.10912-b31b1b.svg)](https://arxiv.org/abs/2605.10912)
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/internlm/WildClawBench)
 [![PDF Report](https://img.shields.io/badge/📄_Paper-PDF-red)](https://github.com/InternLM/WildClawBench/blob/main/WildClawBench_report.pdf)
 
