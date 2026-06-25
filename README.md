@@ -51,6 +51,7 @@ Most agent benchmarks test isolated capabilities — calling a function, parsing
 
 ## News
 
+- **2026-06** ByteDance Seed's **[Seed2.1 release](https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity)** includes WildClawBench in its agent evaluations. Thanks for the recognition!
 - **2026-05** We released a new version with **four agent harnesses** — OpenClaw, Claude Code, Codex CLI, and Hermes Agent — so the same 60-task suite can be evaluated under multiple scaffolds.
 - **2026-05** We published a **[technical report PDF](WildClawBench_report.pdf)**.
 - **2026-05** Tencent’s **[Hunyuan3 Preview](https://hunyuan.tencent.com/research/hy3)** page reports WildClawBench evaluation scores. Thanks for the recognition!
