@@ -90,7 +90,8 @@ def grade(**kwargs) -> dict:
             "1. Ziyu Liu → Dahua Lin → Boyang Deng →  Geoffrey Hinton",
             "2. Ziyu Liu → Yuhang Zang → Joshua M. Susskind → Geoffrey Hinton",
             "3. Ziyu Liu → Zuxuan Wu → Leonid Sigal → Geoffrey Hinton",
-            "4. Ziyu Liu → Yu-Gang Jiang → Leonid Sigal → Geoffrey Hinton"
+            "4. Ziyu Liu → Yu-Gang Jiang → Leonid Sigal → Geoffrey Hinton",
+            "5. Ziyu Liu → Dahua Lin → Ya-Qin Zhang → Geoffrey Hinton"
         ])
         judge_prompt = f"""你是一位评分裁判。请你依据标准答案和待评估回答进行打分。
 
