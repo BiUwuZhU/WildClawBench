@@ -70,29 +70,30 @@ Full interactive leaderboard at [internlm.github.io/WildClawBench](https://inter
 ### Model leaderboard (OpenClaw harness)
 
 > **Overall score** follows the weighted Multimodal / Pure-text breakdown in that table. **Total time** and **total cost** are the paper’s Overall per-task averages (minutes / USD) multiplied by **60** for the full 60-task suite. 
-> Gemini 3.1 Pro was evaluated in low-effort mode; scores may not reflect peak capability.
+
 
 | Rank | Model | Org | Overall Score | Total Time | Total Cost |
 |:----:|-------|-----|:-------------:|:----------:|:----------:|
 | 🥇 | **Claude Opus 4.7** | Anthropic | **62.2%** | 328 min | $77.40 |
 | 🥈 | GPT-5.5 | OpenAI | 58.2% | 262 min | $37.80 |
-| 🥉 | Claude Opus 4.6 | Anthropic | 51.6% | 508 min | $81.00 |
-| 4 | GPT-5.4 | OpenAI | 50.3% | 350 min | $19.80 |
-| 5 | GLM 5.1 | Zhipu AI | 48.2% | 515 min | $34.80 |
-| 6 | DeepSeek V4 Pro | DeepSeek | 43.7% | 605 min | $12.00 |
-| 7 | MiMo V2.5 Pro | Xiaomi | 43.0% | 451 min | $12.60 |
-| 8 | GLM 5 | Zhipu AI | 42.6% | 373 min | $11.40 |
-| 9 | Gemini 3.1 Pro | Google DeepMind | 40.8% | 240 min | $18.00 |
-| 10 | MiMo V2 Pro | Xiaomi | 40.2% | 458 min | $26.40 |
-| 11 | Qwen3.5 397B | Alibaba Cloud | 34.5% | 459 min | $22.20 |
-| 12 | DeepSeek V3.2 | DeepSeek | 34.0% | 549 min | $11.40 |
-| 13 | GLM 5 Turbo | Zhipu AI | 33.9% | 499 min | $15.00 |
-| 14 | MiniMax M2.7 | MiniMax | 33.8% | 551 min | $7.20 |
-| 15 | Kimi K2.5 | Moonshot AI | 30.8% | 406 min | $6.60 |
-| 16 | MiMo V2 Flash | Xiaomi | 30.8% | 433 min | $10.20 |
-| 17 | MiniMax M2.5 | MiniMax | 27.1% | 542 min | $9.60 |
-| 18 | Step 3.5 Flash | StepFun | 26.7% | 430 min | $6.60 |
-| 19 | Grok 4.20 Beta | xAI | 19.3% | 94 min | $9.60 |
+| 🥉 | Muse Spark 1.1 | Meta | 54.8% | 367 min | ~$64.06 |
+| 4 | Claude Opus 4.6 | Anthropic | 51.6% | 508 min | $81.00 |
+| 5 | GPT-5.4 | OpenAI | 50.3% | 350 min | $19.80 |
+| 6 | GLM 5.1 | Zhipu AI | 48.2% | 515 min | $34.80 |
+| 7 | DeepSeek V4 Pro | DeepSeek | 43.7% | 605 min | $12.00 |
+| 8 | MiMo V2.5 Pro | Xiaomi | 43.0% | 451 min | $12.60 |
+| 9 | GLM 5 | Zhipu AI | 42.6% | 373 min | $11.40 |
+| 10 | Gemini 3.1 Pro | Google DeepMind | 40.8% | 240 min | $18.00 |
+| 11 | MiMo V2 Pro | Xiaomi | 40.2% | 458 min | $26.40 |
+| 12 | Qwen3.5 397B | Alibaba Cloud | 34.5% | 459 min | $22.20 |
+| 13 | DeepSeek V3.2 | DeepSeek | 34.0% | 549 min | $11.40 |
+| 14 | GLM 5 Turbo | Zhipu AI | 33.9% | 499 min | $15.00 |
+| 15 | MiniMax M2.7 | MiniMax | 33.8% | 551 min | $7.20 |
+| 16 | Kimi K2.5 | Moonshot AI | 30.8% | 406 min | $6.60 |
+| 17 | MiMo V2 Flash | Xiaomi | 30.8% | 433 min | $10.20 |
+| 18 | MiniMax M2.5 | MiniMax | 27.1% | 542 min | $9.60 |
+| 19 | Step 3.5 Flash | StepFun | 26.7% | 430 min | $6.60 |
+| 20 | Grok 4.20 Beta | xAI | 19.3% | 94 min | $9.60 |
 
 ### Harness comparison
 
