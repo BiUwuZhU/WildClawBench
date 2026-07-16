@@ -76,7 +76,7 @@ Full interactive leaderboard at [internlm.github.io/WildClawBench](https://inter
 |:----:|-------|-----|:-------------:|:----------:|:----------:|
 | 🥇 | **Claude Opus 4.7** | Anthropic | **62.2%** | 328 min | $77.40 |
 | 🥈 | GPT-5.5 | OpenAI | 58.2% | 262 min | $37.80 |
-| 🥉 | Muse Spark 1.1 | Meta | 54.8% | 367 min | $64.06 |
+| 🥉 | Muse Spark 1.1 | Meta | 54.8% | 367 min | $23.59 |
 | 4 | Claude Opus 4.6 | Anthropic | 51.6% | 508 min | $81.00 |
 | 5 | GPT-5.4 | OpenAI | 50.3% | 350 min | $19.80 |
 | 6 | GLM 5.1 | Zhipu AI | 48.2% | 515 min | $34.80 |
