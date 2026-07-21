@@ -28,7 +28,7 @@
 
 We drop agents into a live [OpenClaw](https://github.com/openclaw/openclaw) environment — the same open-source personal AI assistant that real users rely on daily — and throw **60 original tasks** at them: clipping goal highlights from a football match, negotiating meeting times over multi-round emails, hunting down contradictions in search results, writing inference scripts for undocumented codebases, catching privacy leaks before they happen. Useful things. Hard things.
 
-Hard enough that **the strongest frontier model we tested still tops out around 62% overall** (technical report Main results table), and most models land well below that. That makes scores mean something.
+In the **technical report snapshot**, the strongest frontier model topped out at **62.2% overall**; the latest audited OpenClaw runs have since raised the best score to **67.2%**. Most models still land well below that. That makes scores mean something.
 
 ### Why WildClawBench?
 
@@ -51,6 +51,7 @@ Most agent benchmarks test isolated capabilities — calling a function, parsing
 
 ## News
 
+- **2026-07** We expanded the OpenClaw leaderboard with evaluations of the latest frontier models, including **GPT-5.6 Sol, Claude Fable 5, Kimi K3 and etc**.
 - **2026-06** ByteDance Seed's **[Seed2.1 release](https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity)** includes WildClawBench in its agent evaluations. Thanks for the recognition!
 - **2026-05** We released a new version with **four agent harnesses** — OpenClaw, Claude Code, Codex CLI, and Hermes Agent — so the same 60-task suite can be evaluated under multiple scaffolds.
 - **2026-05** We published a **[technical report PDF](WildClawBench_report.pdf)**.
@@ -69,31 +70,37 @@ Full interactive leaderboard at [internlm.github.io/WildClawBench](https://inter
 
 ### Model leaderboard (OpenClaw harness)
 
-> **Overall score** follows the weighted Multimodal / Pure-text breakdown in that table. **Total time** and **total cost** are the paper’s Overall per-task averages (minutes / USD) multiplied by **60** for the full 60-task suite. 
+> **Overall score** follows the weighted Multimodal / Pure-text breakdown in that table. **Total time** and **total cost** are the paper’s Overall per-task averages (minutes / USD) multiplied by **60** for the full 60-task suite.
 
 
 | Rank | Model | Org | Overall Score | Total Time | Total Cost |
 |:----:|-------|-----|:-------------:|:----------:|:----------:|
-| 🥇 | **Claude Opus 4.7** | Anthropic | **62.2%** | 328 min | $77.40 |
-| 🥈 | GPT-5.5 | OpenAI | 58.2% | 262 min | $37.80 |
-| 🥉 | Muse Spark 1.1 | Meta | 54.8% | 367 min | $23.59 |
-| 4 | Claude Opus 4.6 | Anthropic | 51.6% | 508 min | $81.00 |
-| 5 | GPT-5.4 | OpenAI | 50.3% | 350 min | $19.80 |
-| 6 | GLM 5.1 | Zhipu AI | 48.2% | 515 min | $34.80 |
-| 7 | DeepSeek V4 Pro | DeepSeek | 43.7% | 605 min | $12.00 |
-| 8 | MiMo V2.5 Pro | Xiaomi | 43.0% | 451 min | $12.60 |
-| 9 | GLM 5 | Zhipu AI | 42.6% | 373 min | $11.40 |
-| 10 | Gemini 3.1 Pro | Google DeepMind | 40.8% | 240 min | $18.00 |
-| 11 | MiMo V2 Pro | Xiaomi | 40.2% | 458 min | $26.40 |
-| 12 | Qwen3.5 397B | Alibaba Cloud | 34.5% | 459 min | $22.20 |
-| 13 | DeepSeek V3.2 | DeepSeek | 34.0% | 549 min | $11.40 |
-| 14 | GLM 5 Turbo | Zhipu AI | 33.9% | 499 min | $15.00 |
-| 15 | MiniMax M2.7 | MiniMax | 33.8% | 551 min | $7.20 |
-| 16 | Kimi K2.5 | Moonshot AI | 30.8% | 406 min | $6.60 |
-| 17 | MiMo V2 Flash | Xiaomi | 30.8% | 433 min | $10.20 |
-| 18 | MiniMax M2.5 | MiniMax | 27.1% | 542 min | $9.60 |
-| 19 | Step 3.5 Flash | StepFun | 26.7% | 430 min | $6.60 |
-| 20 | Grok 4.20 Beta | xAI | 19.3% | 94 min | $9.60 |
+| 🥇 | **GPT-5.6 Sol** | OpenAI | **67.2%** | 222 min | $56.78 |
+| 🥈 | Claude Opus 4.7 | Anthropic | 62.2% | 328 min | $77.40 |
+| 🥉 | Claude Fable 5 | Anthropic | 62.0% | 328 min | $87.71 |
+| 4 | GPT-5.5 | OpenAI | 58.2% | 262 min | $37.80 |
+| 5 | Grok 4.5 | xAI | 57.5% | 359 min | $28.43 |
+| 6 | Muse Spark 1.1 | Meta | 54.8% | 367 min | $23.59 |
+| 7 | Kimi K3 | Moonshot AI | 54.5% | 488 min | $40.08 |
+| 8 | GLM 5.2 | Zhipu AI | 54.2% | 442 min | $17.10 |
+| 9 | Claude Opus 4.6 | Anthropic | 51.6% | 508 min | $81.00 |
+| 10 | GPT-5.4 | OpenAI | 50.3% | 350 min | $19.80 |
+| 11 | Hy3 | Tencent | 49.7% | 338 min | $2.13 |
+| 12 | GLM 5.1 | Zhipu AI | 48.2% | 515 min | $34.80 |
+| 13 | DeepSeek V4 Pro | DeepSeek | 43.7% | 605 min | $12.00 |
+| 14 | MiMo V2.5 Pro | Xiaomi | 43.0% | 451 min | $12.60 |
+| 15 | GLM 5 | Zhipu AI | 42.6% | 373 min | $11.40 |
+| 16 | Gemini 3.1 Pro | Google DeepMind | 40.8% | 240 min | $18.00 |
+| 17 | MiMo V2 Pro | Xiaomi | 40.2% | 458 min | $26.40 |
+| 18 | Qwen3.5 397B | Alibaba Cloud | 34.5% | 459 min | $22.20 |
+| 19 | DeepSeek V3.2 | DeepSeek | 34.0% | 549 min | $11.40 |
+| 20 | GLM 5 Turbo | Zhipu AI | 33.9% | 499 min | $15.00 |
+| 21 | MiniMax M2.7 | MiniMax | 33.8% | 551 min | $7.20 |
+| 22 | Kimi K2.5 | Moonshot AI | 30.8% | 406 min | $6.60 |
+| 23 | MiMo V2 Flash | Xiaomi | 30.8% | 433 min | $10.20 |
+| 24 | MiniMax M2.5 | MiniMax | 27.1% | 542 min | $9.60 |
+| 25 | Step 3.5 Flash | StepFun | 26.7% | 430 min | $6.60 |
+| 26 | Grok 4.20 Beta | xAI | 19.3% | 94 min | $9.60 |
 
 ### Harness comparison
 
