@@ -70,7 +70,7 @@ Full interactive leaderboard at [internlm.github.io/WildClawBench](https://inter
 
 ### Model leaderboard (OpenClaw harness)
 
-> **Overall score** follows the weighted Multimodal / Pure-text breakdown in that table. **Total time** and **total cost** are the paper’s Overall per-task averages (minutes / USD) multiplied by **60** for the full 60-task suite. Displayed USD costs use two decimal places with round-half-up rounding.
+> **Overall score** follows the weighted Multimodal / Pure-text breakdown in that table. **Total time** and **total cost** are the paper’s Overall per-task averages (minutes / USD) multiplied by **60** for the full 60-task suite.
 
 
 | Rank | Model | Org | Overall Score | Total Time | Total Cost |
