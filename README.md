@@ -77,7 +77,7 @@ Full interactive leaderboard at [internlm.github.io/WildClawBench](https://inter
 |:----:|-------|-----|:-------------:|:----------:|:----------:|
 | 🥇 | **GPT-5.6 Sol** | OpenAI | **67.2%** | 222 min | $56.78 |
 | 🥈 | Claude Opus 4.7 | Anthropic | 62.2% | 328 min | $77.40 |
-| 🥉 | Claude Fable 5 | Anthropic | 62.0% | 328 min | $87.71 |
+| 🥉 | Claude Fable 5 | Anthropic | 62.0% | 324 min | $87.71 |
 | 4 | GPT-5.5 | OpenAI | 58.2% | 262 min | $37.80 |
 | 5 | Grok 4.5 | xAI | 57.5% | 359 min | $28.43 |
 | 6 | Muse Spark 1.1 | Meta | 54.8% | 367 min | $23.59 |
